@@ -9,7 +9,7 @@ const port=4000;
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    let today=format(new Date(),'dd-mm-yyyy-HH-MM-SS')
+    let today=format(new Date(),'dd-mm-yyyy-HH-mm-ss')
     //console.log(today);
     const filepath = `Timestamp/${today}.txt`
 
