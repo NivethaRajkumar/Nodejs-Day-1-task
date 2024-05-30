@@ -33,7 +33,6 @@ app.get('/gettextfiles',(req,res)=>{
 
 })
 
-
 app.listen(port,()=>{
-    console.log("App is running on the port",port)
+    console.log(`App is running on the port ${port}`)
 })
